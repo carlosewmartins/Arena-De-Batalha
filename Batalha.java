@@ -38,6 +38,7 @@ public class Batalha {
             }
             if (personagem.getVida() <= 0) {
                 System.out.println(personagem.getNome() + " foi derrotado! " + inimigo.getNome() + " venceu!");
+                break;
             }
         }
     }
