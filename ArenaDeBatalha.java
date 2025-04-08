@@ -1,10 +1,8 @@
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
 
 public class ArenaDeBatalha {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
         String[] nomesPersonagens = {"Guerreiro", "Mago", "Arqueiro", "Ladino", "Paladino"};
@@ -27,7 +25,5 @@ public class ArenaDeBatalha {
 
         Batalha batalha = new Batalha(personagem, inimigo);
         batalha.iniciarBatalha();
-
-        scanner.close();
     }
 }
